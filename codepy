@@ -1,0 +1,219 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOYaXaRVyDhWm8zRzeVxVhN",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/gfh17/test15h/blob/main/codepy\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7MLujZJRoKGS",
+        "outputId": "889b1762-e313-48a7-984e-cd20878558f7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cloning into 'rl-class-assignment-gfh17'...\n",
+            "remote: Enumerating objects: 35, done.\u001b[K\n",
+            "remote: Counting objects: 100% (19/19), done.\u001b[K\n",
+            "remote: Compressing objects: 100% (15/15), done.\u001b[K\n",
+            "remote: Total 35 (delta 8), reused 4 (delta 4), pack-reused 16\u001b[K\n",
+            "Receiving objects: 100% (35/35), 19.16 KiB | 2.40 MiB/s, done.\n",
+            "Resolving deltas: 100% (8/8), done.\n"
+          ]
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git clone https://github.com/gfh17/test15h"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8yFnBs8eoLGf",
+        "outputId": "6612791c-a119-4560-c004-55fa4c33e626"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cloning into 'test15h'...\n",
+            "remote: Enumerating objects: 19, done.\u001b[K\n",
+            "remote: Counting objects: 100% (19/19), done.\u001b[K\n",
+            "remote: Compressing objects: 100% (13/13), done.\u001b[K\n",
+            "remote: Total 19 (delta 7), reused 10 (delta 3), pack-reused 0\u001b[K\n",
+            "Receiving objects: 100% (19/19), done.\n",
+            "Resolving deltas: 100% (7/7), done.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git config --global user.email \"tounsi.saeb@gmail.com\""
+      ],
+      "metadata": {
+        "id": "yXif954ZoebF"
+      },
+      "execution_count": 2,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "%cd test15h"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rKvxDcK4orda",
+        "outputId": "dbf12911-df38-4d65-c3e4-37fb047b5601"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "/content/test15h\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git add codepy.py\n"
+      ],
+      "metadata": {
+        "id": "xtnMSy4Ooh4x"
+      },
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git commit -m \"without change\"\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "k-NtZ1sAoz8o",
+        "outputId": "0e800802-bea2-4b9d-d0ff-969aeefb3327"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[main b7eefd4] without change\n",
+            " 1 file changed, 1 insertion(+), 1 deletion(-)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git push https://\"gfh17\":\"17082000&Saeb\"@github.com/gfh17/test15h"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f-D6XKOTpVD_",
+        "outputId": "4db60ae4-4a32-4446-c335-27878ba32ac4"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "remote: Support for password authentication was removed on August 13, 2021.\n",
+            "remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.\n",
+            "fatal: Authentication failed for 'https://github.com/gfh17/test15h/'\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git remote rm origin\n",
+        "!git remote add origin 'git@github.com:gfh17/test15h.git'"
+      ],
+      "metadata": {
+        "id": "SXxcvA6Qo6mQ"
+      },
+      "execution_count": 21,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git push origin main\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MZuCXWP3o3xQ",
+        "outputId": "d00b18e8-ee2a-446c-8310-9edca0f936b8"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Host key verification failed.\r\n",
+            "fatal: Could not read from remote repository.\n",
+            "\n",
+            "Please make sure you have the correct access rights\n",
+            "and the repository exists.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
